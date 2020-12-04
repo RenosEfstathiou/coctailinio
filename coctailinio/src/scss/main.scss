@@ -1,0 +1,16 @@
+// abstarct scss files
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+//base scss files
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+// pages
+@import 'pages/home'; // components scss files
+@import 'components/navbar';
+@import 'components/form';
+@import 'components/buttons';

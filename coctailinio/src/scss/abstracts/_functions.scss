@@ -1,0 +1,48 @@
+@for $i from 1 through 10 {
+  //   margin classes
+
+  .m-#{$i} {
+    margin: #{$i * 2}rem;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i * 2}rem;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i * 2}rem;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i * 2}rem;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i * 2}rem;
+  }
+  .my-#{$i} {
+    margin: #{$i * 2}rem 0;
+  }
+  .mx-#{$i} {
+    margin: 0 #{$i * 2}rem;
+  }
+
+  //   paddings classes
+  .p-#{$i} {
+    margin: #{$i * 2}rem;
+  }
+  .pt-#{$i} {
+    margin-top: #{$i * 2}rem;
+  }
+  .pb-#{$i} {
+    margin-bottom: #{$i * 2}rem;
+  }
+  .pl-#{$i} {
+    margin-left: #{$i * 2}rem;
+  }
+  .pr-#{$i} {
+    margin-right: #{$i * 2}rem;
+  }
+  .py-#{$i} {
+    margin: #{$i * 2}rem 0;
+  }
+  .px-#{$i} {
+    margin: 0 #{$i * 2}rem;
+  }
+}

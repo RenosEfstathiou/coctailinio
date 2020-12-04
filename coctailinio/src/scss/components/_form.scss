@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__input {
+    font-size: $basic-font-size;
+    padding: 1rem 2rem;
+    color: inherit;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 1px solid rgba($color-primary, 0.6);
+    display: block;
+    width: 60%;
+    transition: all 0.3s;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 1.5rem rgba($color-black, 0.1);
+      border-bottom: 3px solid $color-primary;
+
+      &:invalid {
+        border-bottom: 3px solid black;
+      }
+    }
+    &::-webkit-input-placeholder {
+      color: $color-black;
+    }
+  }
+
+  &__select-label {
+    font-size: $basic-font-size;
+  }
+  &__select-option {
+    display: inline-block;
+    font-size: $basic-font-size;
+    padding: 1rem 1rem;
+    border: none;
+    border-bottom: 1px solid rgba($color-primary, 0.6);
+    border-radius: 4px;
+    background-color: #fff;
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 1.5rem rgba($color-black, 0.1);
+      border-bottom: 3px solid $color-primary;
+    }
+    &::-webkit-input-placeholder {
+      color: $color-black;
+    }
+  }
+}
